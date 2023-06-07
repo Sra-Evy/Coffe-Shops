@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    margin:  auto;
+    padding: 0 2%;
+    background-color: #ff57e6;
+}
+
+.header{
+    padding: 30px 0;
+
+}
+.logo{
+    width:8%
+}
+
+.menu{
+    width: 70%;
+    text-align: right;
+    padding-top: 30px;
+  
+}
+
+@font-face {
+    font-family: "font-frederico";
+    src: url("font-frederico.ttf") format("truetype");
+    font-weight: normal; 
+    font-style: normal;
+  }
+
+.menu a {
+    padding-top: 30px;
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: 'font-frederico', cursive ; 
+    margin-right: 30px;
+    font-size: 180%;
+}
+
+@font-face {  /* importação da fonte */
+    font-family: "nicone";
+    src: url("niconne.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+.nome-logo{
+    padding-top: 30px;
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "nicone", cursive ; 
+    font-size: 250%;
+ 
+}
+body {
+    background-color: rgb(225, 185, 219)!important;
+  }
+.titulo{
+    padding-top: 30px;
+    padding-left: 200px;
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "font-frederico", cursive ; 
+    font-size: 300%;
+}
+
+.texto{
+    padding-top: 30px;
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "nicone", cursive ; 
+    font-size: 250%;
+}
+
+.footer {
+    padding-top: 15%;
+    object-position: 2%;
+    bottom: 0;
+    width: 100%;
+    background-color: #eec8ea;
+    font-weight: 500;
+  }

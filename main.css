@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {/* importação da fonte */
+    font-family: "font-frederico";
+    src: url("font-frederico.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {/* importação da fonte */
+    font-family: "nicone";
+    src: url("niconne.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .menu-center {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #ff57e6;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  .menu a {
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "font-frederico", cursive;
+    margin-right: 60px;
+    font-size: 180%;
+  }
+  
+  .nome-logo {
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "nicone", cursive;
+    font-size: 3em;
+  }
+  
+  .vinde {
+    padding-left: 7.5em;
+    float: left;
+    line-height: 1;
+    padding-top: 90px;
+  }
+  
+  .titulo {
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "nicone", cursive;
+    font-size: 450%;
+  }
+  
+  .semi-titulo {
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "nicone", cursive;
+    font-size: 190%;
+  }
+  body { /* imagem de fundo da página inicial */
+    background-image: url("coffeeshop.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+  .card-sobre {
+    padding-top: 7em;
+    padding-right: 4em !important;
+  }
+  .footer {
+    object-position: 2%;
+    margin-top: 6.8%;
+    bottom: 0;
+    width: 100%;
+    background-color: #eec8ea;
+    font-weight: 500;
+  }
+  

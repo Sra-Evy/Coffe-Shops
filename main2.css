@@ -1,0 +1,153 @@
+.menu-center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    margin: auto;
+    padding: 0 2%;
+    background-color: #ff57e6;
+  }
+
+  .logo {
+    width: 8%;
+  }
+  
+  .menu {
+    width: 70%;
+    text-align: right;
+  }
+  
+  @font-face {
+    font-family: "font-frederico";
+    src: url("font-frederico.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .menu a {
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "font-frederico", cursive;
+    margin-right: 60px;
+    font-size: 180%;
+  }
+  
+  @font-face {
+    font-family: "nicone";
+    src: url("niconne.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  .nome-logo {
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "nicone", cursive;
+    font-size: 3em;
+  }
+  
+  .vinde {
+    padding-left: 114px;
+    float: left;
+    line-height: 1;
+    padding-top: 90px;
+  }
+  
+  .titulo {
+    padding-bottom: 92px;
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "nicone", cursive;
+    font-size: 450%;
+  }
+  
+  .semi-titulo {
+    padding-top: 30px;
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "nicone", cursive;
+    font-size: 190%;
+  }
+  body {
+    background-color: rgb(225, 185, 219)!important;
+  }
+
+.coado{
+padding-left: 2%;
+
+}
+.coado-titulo{
+    padding-top: 120px;
+    padding-left: 40%;
+    color: rgb(48, 28, 203);
+    text-decoration: none;
+    font-family: "font-frederico", cursive;
+    font-size: 400%;
+}
+.coado-des{
+  padding-left: 35%;
+  padding-top: 30px;
+  font-family: "nicone";
+  font-size: 250%;
+  color:rgb(48, 28, 203)
+  
+}
+.expresso{
+  padding-left: 2%;
+}
+.expresso-titulo{
+  padding-top: 120px;
+  padding-left: 40%;
+  color: rgb(48, 28, 203);
+  text-decoration: none;
+  font-family: "font-frederico", cursive;
+  font-size: 400%;
+}
+.expresso-des{
+padding-left: 35%;
+padding-top: 30px;
+font-family: "nicone";
+font-size: 250%;
+color:rgb(48, 28, 203)
+}
+.capucino{
+  padding-left: 2%;
+}
+.capucino-titulo{
+  padding-top: 200px;
+  padding-left: 40%;
+  color: rgb(48, 28, 203);
+  text-decoration: none;
+  font-family: "font-frederico", cursive;
+  font-size: 400%;
+}
+.capucino-des{
+padding-left: 37%;
+padding-top: 30px;
+font-family: "nicone";
+font-size: 250%;
+color:rgb(48, 28, 203)
+}
+.frapu{
+  padding-left: 2%;
+}
+.frapu-titulo{
+  padding-top: 200px;
+  padding-left: 40%;
+  color: rgb(48, 28, 203);
+  text-decoration: none;
+  font-family: "font-frederico", cursive;
+  font-size: 400%;
+}
+.frapu-des{
+padding-left: 30%;
+padding-top: 40px;
+font-family: "nicone";
+font-size: 250%;
+color:rgb(48, 28, 203)
+}
+.footer {
+  object-position: 2%;
+  bottom: 0;
+  width: 100%;
+  background-color: #eec8ea;
+  font-weight: 500;
+}

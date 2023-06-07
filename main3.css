@@ -1,0 +1,87 @@
+.menu-center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    margin: auto;
+    padding: 0 2%;
+    background-color: #ff57e6;
+  }
+  
+  .logo {
+    width: 8%;
+  }
+  
+  .menu {
+    width: 70%;
+    text-align: right;
+  }
+  
+  @font-face {
+    font-family: "font-frederico";
+    src: url("font-frederico.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .menu a {
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "font-frederico", cursive;
+    margin-right: 60px;
+    font-size: 180%;
+  }
+  
+  @font-face {
+    font-family: "nicone";
+    src: url("niconne.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  .nome-logo {
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "nicone", cursive;
+    font-size: 3em;
+  }
+  
+  .vinde {
+    padding-left: 114px;
+    float: left;
+    line-height: 1;
+    padding-top: 90px;
+  }
+  
+  .titulo {
+    padding-bottom: 92px;
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "nicone", cursive;
+    font-size: 450%;
+  }
+  
+  .semi-titulo {
+    padding-top: 30px;
+    color: rgb(127, 8, 156);
+    text-decoration: none;
+    font-family: "nicone", cursive;
+    font-size: 190%;
+  }
+  body {
+    background-color: rgb(225, 185, 219)!important;
+  }
+    .legenda-local{
+      color: rgb(97, 6, 120);
+      text-decoration: none;
+      font-family: "nicone", cursive;
+      font-size: 1em;
+      padding: 15px; ;
+      padding-left: 30%;
+      font-size: 200%;
+    }
+    .footer {
+      object-position: 2%;
+      bottom: 0;
+      width: 100%;
+      background-color: #eec8ea;
+      font-weight: 500;
+    }
